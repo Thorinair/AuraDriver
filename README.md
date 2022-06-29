@@ -6,7 +6,7 @@ This plugin provides the basic functionality required to add it to your own worl
 
 **NOTE: This project is a derivative work and is not part of Furality Online Xperience or created by Furality, Inc.**
 
-A live demo is available in the [Luminescent Ledge](https://vrchat.com/home/world/wrld_fb4edc80-6c48-43f2-9bd1-2fa9f1345621) VRChat world! Make sure to have an avatar with the [Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura Color propery.
+A live demo is available in the [Luminescent Ledge](https://vrchat.com/home/world/wrld_fb4edc80-6c48-43f2-9bd1-2fa9f1345621) VRChat world! Make sure to have an avatar with the [Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura Color property.
 
 ## Features
 * Provides the infrastructure needed to add the Luma Aura effect to a world.
@@ -27,7 +27,7 @@ A live demo is available in the [Luminescent Ledge](https://vrchat.com/home/worl
 6. AuraDriver by default only makes objects that are on the `Player` and `PlayerLocal` layers as sources of the aura. If you want more layers, you can enable them on the camera's `Culling Mask` property.
 7. Set the `AuraSurface_Standard_Amplify` or `AuraSurface_Standard_Code` shaders to the materials on objects in your scene which you want to react to the Aura. These two shaders are functionally the same and quite simple, but serve as starting points for those who want to write their own compatible shaders.
 8. If you have changed the camera's size or moved AuraDriver previously, enter the correct values into the material properties `AuraDriver Camera Size`, `AuraDriver Camera Offset X` and `AuraDriver Camera Offset Z`.
-9. You are done! Feel free to test the world and see if your avatar makes the objects light up with aura. Make sure to have an avatar with the [Furality Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura propery. Read below for more customization tips etc.
+9. You are done! Feel free to test the world and see if your avatar makes the objects light up with aura. Make sure to have an avatar with the [Furality Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura property. Read below for more customization tips etc.
 
 ## Example Scene
 
