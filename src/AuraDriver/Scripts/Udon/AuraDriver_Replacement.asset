@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: AuraDriver_Replacement
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 19ee225f2bec4a247a5d5d982ee51da2,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export Camera\r\n    .export Material\r\n   
+    \r\n    __instance_0: %UnityEngineCamera, null\r\n    __shader_0: %UnityEngineShader,
+    null\r\n    __replacementTag_0: %SystemString, null\r\n    __instance_1: %UnityEngineMaterial,
+    null\r\n    Camera: %UnityEngineCamera, null\r\n    Material: %UnityEngineMaterial,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _start\r\n    \r\n   
+    _start:\r\n    \r\n        PUSH, Camera\r\n        PUSH, __instance_0\r\n       
+    COPY\r\n        PUSH, Material\r\n        PUSH, __instance_1\r\n        COPY\r\n       
+    PUSH, __instance_1\r\n        PUSH, __shader_0\r\n        EXTERN, \"UnityEngineMaterial.__get_shader__UnityEngineShader\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __shader_0\r\n        PUSH, __replacementTag_0\r\n       
+    EXTERN, \"UnityEngineCamera.__SetReplacementShader__UnityEngineShader_SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Event_Start
+      uid: 4e2be350-a49b-41de-a982-effb2b667a7c
+      position: {x: 244, y: 124}
+      nodeUIDs: []
+      flowUIDs:
+      - 5bebd52b-da17-4190-be3a-a45b4cc7a7c2
+      nodeValues: []
+    - fullName: UnityEngineCamera.__SetReplacementShader__UnityEngineShader_SystemString__SystemVoid
+      uid: 5bebd52b-da17-4190-be3a-a45b4cc7a7c2
+      position: {x: 435.6001, y: 198.55005}
+      nodeUIDs:
+      - 17290890-bb9e-41e6-b982-e95288c5209c|0
+      - 3a5b61b4-d676-46d6-8713-606fbec7b688|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Variable_UnityEngineCamera
+      uid: f80aafbd-b00c-4f55-91ef-1fb00f8fc675
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Camera
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 17290890-bb9e-41e6-b982-e95288c5209c
+      position: {x: 194, y: 223}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f80aafbd-b00c-4f55-91ef-1fb00f8fc675
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Variable_UnityEngineMaterial
+      uid: 437eda75-678f-4740-b7e8-dd015d708a99
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Material
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: c55699e6-9cfe-4156-bc04-29b747899caa
+      position: {x: -13, y: 321}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|437eda75-678f-4740-b7e8-dd015d708a99
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineMaterial.__get_shader__UnityEngineShader
+      uid: 3a5b61b4-d676-46d6-8713-606fbec7b688
+      position: {x: 184.25, y: 320.1}
+      nodeUIDs:
+      - c55699e6-9cfe-4156-bc04-29b747899caa|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    updateOrder: 0
+  graphElementData:
+  - type: 5
+    uid: 3d7a8166-a793-4710-8f0b-45932c83256b
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":200.0,"height":150.0}}'
+  viewTransform:
+    position: {x: 185, y: 251}
+    scale: 0.8695652
+  version: 1.0.0
+  showAssembly: 0

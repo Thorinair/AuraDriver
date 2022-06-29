@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AuraExample_Emitter_AquaShader
+  m_Shader: {fileID: 4800000, guid: 6287a604a101d1a49bed0722c7728eba, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowMaskRGB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientDirectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AdvToggle: 1
+    - _AuraColorIndex: 0
+    - _BlendModeIndex: 0
+    - _BlendOPIndex: 0
+    - _BlendOPdst: 10
+    - _BlendOPsrc: 5
+    - _BumpScale: 1
+    - _Culling: 2
+    - _Cutoff: 0.5
+    - _DebugMode: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionPan: 0
+    - _EmissionReactivity: 0
+    - _EmissionZone: 0
+    - _EnableEmission: 0
+    - _EnableEmissionGlow: 0
+    - _EnableGlowMaskB: 0
+    - _EnableGlowMaskG: 0
+    - _EnableGlowMaskR: 0
+    - _EnableOutlineGlow: 0
+    - _EnableRimlightGlow: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowMaskZoneB: 0
+    - _GlowMaskZoneG: 0
+    - _GlowMaskZoneR: 0
+    - _GradientDirection: 0
+    - _HighsPulseDirection: 180
+    - _LowsPulseDirection: 180
+    - _LumaFlow: 0
+    - _LumaFlowDistortion: 0.1
+    - _LumaFlowSpeed: 0.001
+    - _LumaFlowTiling: 1
+    - _MaskClip: 0.5
+    - _MaskEmission: 0
+    - _MaskLumaFlowG: 0
+    - _MaskSparklesB: 0
+    - _Metallic: 0
+    - _MetallicMult: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineReactivity: 0
+    - _OutlineWidth: 3
+    - _OutlineZone: 0
+    - _Outlines: 0
+    - _Parallax: 0.02
+    - _PosterizeLighting: 0
+    - _PosterizeRimLighting: 0
+    - _PosterizedLightingSlices: 1
+    - _PosterizedRimLightingSlices: 1
+    - _ReacitvityB: 0
+    - _ReacitvityG: 0
+    - _ReacitvityR: 0
+    - _RimOffset: 0.02
+    - _RimlightReactivity: 0
+    - _RimlightScale: 1
+    - _RimlightSpecularInfluence: 0
+    - _RimlightToon: 0
+    - _RimlightZone: 3
+    - _Rimlighting: 0
+    - _SecretLightingToggle: 0
+    - _SettingsMode: 4
+    - _ShadingOffset: 0
+    - _SmoothnessMult: 1
+    - _SmoothnessTextureChannel: 0
+    - _SoftenLighting: 0
+    - _SparkleDepth: 0
+    - _SparkleSize: 0.01
+    - _SparkleSpeed: 0.01
+    - _SparkleThreshold: 0.1
+    - _SparkleTiling: 100
+    - _Sparkles: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _ToonLighting1: 0
+    - _ToonLighting2: 0
+    - _ToonSpecular: 0
+    - _ToonSpecularSize: 0
+    - _UVSec: 0
+    - _UseSpecularTexture: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionPanSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _FakeLightDir: {r: 1, g: 1, b: 2, a: 0}
+    - _GlowMaskTintB: {r: 0, g: 0, b: 0, a: 1}
+    - _GlowMaskTintG: {r: 0, g: 0, b: 0, a: 1}
+    - _GlowMaskTintR: {r: 0, g: 0, b: 0, a: 1}
+    - _LumaAuraColor: {r: 0, g: 1, b: 0, a: 0}
+    - _LumaFlowColor: {r: 0, g: 1, b: 0.9602337, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimlightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SparkleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularTint: {r: 1, g: 1, b: 1, a: 0}

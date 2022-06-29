@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AuraExample_StandardAmplify_Noise
+  m_Shader: {fileID: 4800000, guid: 7b4cba7edfd9eb54886dedccb16663f7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AuraDriverCRT:
+        m_Texture: {fileID: 8600000, guid: 636c634864f6a034bab54043f2238e7e, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AuraNoise:
+        m_Texture: {fileID: 2800000, guid: d0bc0f686ff6c684caacdd792bd1830b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5c797996fcdfee8448319a1473741131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: 419a41d23ffba09469d0e04d7fa45ae9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 09afd84b35363d746bc65a479d719b05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AuraCameraOffsetX: 0
+    - _AuraCameraOffsetZ: 0
+    - _AuraDistortion: 0
+    - _AuraDriverCameraOffsetX: 0
+    - _AuraDriverCameraOffsetZ: 0
+    - _AuraDriverCameraSize: 40
+    - _AuraIntensity: 1
+    - _AuraNoiseIntensity: 1
+    - _NormalScale: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
