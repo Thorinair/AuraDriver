@@ -1,6 +1,8 @@
 # AuraDriver
 
-AuraDriver is an unofficial VRChat world-side plugin designed to generate the Luma Aura effect similar to the one that was on the [Furality](https://furality.org/) Aqua worlds. The plugin provides the basic functionality required to add it to your worlds and comes with two example usable surface shaders. Advanced implementations will require you to copy the parts of it and implement it in your own shaders however.
+AuraDriver is an unofficial VRChat world-side plugin designed to generate the Luma Aura effect similar to the one that was on the [Furality](https://furality.org/) Aqua worlds. The effect would light up the ground, objects, plants, etc. as the player would walk around the worlds.
+
+This plugin provides the basic functionality required to add it to your own worlds and comes with two example usable surface shaders. Advanced implementations will require you to copy the parts of it and implement it in your own shaders however.
 
 **NOTE: This project is a derivative work and is not part of Furality Online Xperience or created by Furality, Inc.**
 
