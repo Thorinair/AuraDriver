@@ -27,7 +27,8 @@ A live demo is available in the [Luminescent Ledge](https://vrchat.com/home/worl
 6. AuraDriver by default only makes objects that are on the `Player` and `PlayerLocal` layers as sources of the aura. If you want more layers, you can enable them on the camera's `Culling Mask` property.
 7. Set the `AuraSurface_Standard_Amplify` or `AuraSurface_Standard_Code` shaders to the materials on objects in your scene which you want to react to the Aura. These two shaders are functionally the same and quite simple, but serve as starting points for those who want to write their own compatible shaders.
 8. If you have changed the camera's size or moved AuraDriver previously, enter the correct values into the material properties `AuraDriver Camera Size`, `AuraDriver Camera Offset X` and `AuraDriver Camera Offset Z`.
-9. You are done! Feel free to test the world and see if your avatar makes the objects light up with aura. Make sure to have an avatar with the [Furality Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura property. Read below for more customization tips etc.
+9. If the `AuraDriver CRT` texture slot is empty, assign it the following: `AuraDriver/CustomRenderTexture/AuraDriver_Output` 
+10. You are done! Feel free to test the world and see if your avatar makes the objects light up with aura. Make sure to have an avatar with the [Furality Aqua Shader](https://furality.org/aqua-shader-info) and with the correctly set Luma Aura property. Read below for more customization tips etc.
 
 ## Example Scene
 
@@ -78,7 +79,7 @@ Aura enabled shaders should have a set of certain standard properties to make th
 * **AuraDriver Camera Size** - Size of the camera attached to AuraDriver. Should always be same as the value set on AuraDriver prefab.
 * **AuraDriver Camera Offset X** - X position in the world of the AuraDriver prefab.
 * **AuraDriver Camera Offset Z** - Z position in the world of the AuraDriver prefab.
-* **AuraDriver CRT** - Input render texture. **Should not be changed.**
+* **AuraDriver CRT** - Input render texture. **Should not be changed. Set it to `AuraDriver/CustomRenderTexture/AuraDriver_Output` if empty.**
 
 ## Advanced Topics
 
